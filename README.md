@@ -56,3 +56,17 @@ python phishing_analyzer.py samples/legit_01.eml
 
 The phishing sample should be reported as High risk and include indicators for
 SPF/DKIM failure, a raw-IP URL, urgency language, and a Reply-To mismatch.
+
+## Web interface
+
+Start the local interface with:
+
+```text
+python ui_server.py
+```
+
+Then open `http://127.0.0.1:8000` in a browser. Upload an `.eml` file up to
+1 MB or try one of the included synthetic samples. The interface binds only to
+localhost; submitted email bytes are analyzed in memory and are not saved.
+Analysis makes no external network requests. Press Ctrl+C in the terminal to
+stop the server.
