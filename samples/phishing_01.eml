@@ -1,0 +1,9 @@
+From: "PayPal Security" <security@paypal-verify-login.com>
+Reply-To: attacker@mailinator.com
+Authentication-Results: mx.example.com; spf=fail; dkim=fail
+Subject: URGENT: Your account will be locked within 24 hours
+
+Dear customer,
+We detected unusual activity. Verify your account immediately by signing in.
+Confirm your identity here: http://192.168.10.44/paypal/login/verify
+Failure to act now will suspend your account.

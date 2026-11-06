@@ -1,0 +1,5 @@
+From: "GitHub" <noreply@github.com>
+Authentication-Results: mx.example.com; spf=pass; dkim=pass
+Subject: Your weekly digest
+
+Here is your weekly summary of repository activity. No action required.
